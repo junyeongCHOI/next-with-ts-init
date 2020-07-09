@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Index = () => {
   return (
     <div>
-      <Title>Test</Title>
+      <Title>Hello, Next</Title>
     </div>
   );
 };
@@ -11,5 +11,5 @@ const Index = () => {
 export default Index;
 
 const Title = styled.h1`
-  color: red;
+  color: #e2e2e2;
 `;
