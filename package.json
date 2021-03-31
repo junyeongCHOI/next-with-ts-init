@@ -1,13 +1,13 @@
 {
-  "name": "next-init-me",
+  "name": "nextjs-boilerplate-with-typescript-stylecomponent",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "dev": "next",
-    "build": "next build && next export",
-    "start": "next start"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npm run build && next start"
   },
   "keywords": [],
   "author": "",
